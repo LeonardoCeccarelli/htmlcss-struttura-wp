@@ -34,17 +34,10 @@ footer {
     margin-bottom: 10px;
 }
 
-.background_s {
-    background-color: lightblue;
-}
-
 .top_s_section {
+    background-color: lightblue;
     height: 75px;
     margin-bottom: 15px;
-}
-
-.float_left {
-    float: left;
 }
 
 .clearfix::after {
@@ -53,21 +46,17 @@ footer {
     clear: both;
 }
 
-.fst_column {
+.column_cards {
+    background-color: lightblue;
+    float: left;
     height: 350px;
     width: 20%;
-    margin-right: 10px;
+    margin-bottom: 15px;
 }
 
 .snd_column {
-    height: 350px;
-    width: -webkit-calc(100% - 40% - 20px);
+    margin: 0 10px;
+    width: calc(100% - 40% - 20px);
 }
 
-.trd_column {
-    height: 350px;
-    width: 20%;
-    margin-left: 10px;
-    margin-bottom: 15px;
-}
 
